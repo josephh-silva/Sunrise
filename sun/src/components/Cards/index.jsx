@@ -54,7 +54,7 @@ function Cards(){
                                 </div>
                             </div>
                             <div className="col-6 button">
-                            <a href="http://wa.me/559185927997" target="_blank" rel="noopener noreferrer">Contate-nos</a>
+                            <a onClick={window.open('http://wa.me/559185927997', '_blank')} >Contate-nos</a>
                                 <div>
                                     <img src={Email} alt="Email" />
                                 </div>
