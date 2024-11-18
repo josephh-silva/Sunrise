@@ -1,0 +1,21 @@
+
+.clothes {
+    width: 18.7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 1rem;
+    border-radius: 1.2rem; /* Para manter as bordas arredondadas */
+}
+
+.text {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.clothes .img-card img {
+    width: 15rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.4); /* Adicionando sombra na imagem */
+}

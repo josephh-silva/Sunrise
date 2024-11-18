@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+.inform{
+    background-color: #000000;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+  width: 100%;
+    
+}
+.container-nav{
+    padding: 0.5rem;
+
+}
+.logo-conf{
+    display: flex;
+    align-items: center;
+}
+.logo-conf span{
+  margin-left: 0.9rem;
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  
+}
+.logo{
+    width: 4rem;
+    border-radius: 2rem;
+
+}
+.links{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+.ig-logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+.ig-logo img{
+    width: 2rem;
+}
+@media (min-width: 320px) and (max-width: 526px){
+    .container-nav{
+        min-height: 25vh;
+        width: 105%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logo-conf{
+       
+        width: 10rem;
+    }
+    .ig-logo{
+        justify-content: center;
+    }
+    .links{
+       
+        width: 9rem;
+    }
+}
