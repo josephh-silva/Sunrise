@@ -5,7 +5,7 @@ function Navbar(){
     return(
         <>
         <div className="container-fluid inform">
-          Lorem ipsum dolor sit, amet consectetur adipisici
+          <p>Uma infindade de opções</p>
         </div>
       
         <nav className="container">
