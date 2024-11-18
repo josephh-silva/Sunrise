@@ -158,245 +158,198 @@ section {
     border-radius: 1.5rem;
     pointer-events: none; /* Impede que a sobreposição bloqueie a interação */
 }
-@media(max-width: 1442px){
+/* Para telas até 1442px */
+@media(max-width: 1442px) {
     .card-one {
         width: 25rem;
-        
     }
-
     .text-card {
         min-height: 50vh;
         width: 22rem;
         margin-left: 1.5rem;
     }
-
     .text-card h1 {
         font-size: 2.5rem;
         padding-top: 1rem;
     }
-
     .min-cards {
-       width: 17rem ;
-       margin-left: 1.3rem;
+        width: 17rem;
+        margin-left: 1.3rem;
     }
-
     .text-card p {
         font-size: 0.8rem;
         margin-right: 2rem;
     }
-
-    .min-cards {
-        width: 23rem ;
-    }
-
     .min-cards .cards-three h2 {
-        font-size: 0.9rem ;
+        font-size: 0.9rem;
     }
-
     .min-cards .cards-three-2 h2 {
-        font-size:  0.9rem ;
+        font-size: 0.9rem;
     }
-
 }
-@media(max-width: 1025px){
-    .card-one {
-        width: 25rem  ;
-    }
 
+/* Para telas até 1025px */
+@media(max-width: 1025px) {
+    .card-one {
+        width: 25rem;
+    }
     .text-card {
         min-height: 50vh;
         width: 22rem;
         margin-left: 1.5rem;
     }
-
     .text-card h1 {
         font-size: 2.5rem;
         padding-top: 1rem;
     }
-
     .min-cards {
-       width: 17rem ;
-       margin-left: 1.3rem;
+        width: 17rem;
+        margin-left: 1.3rem;
     }
-
     .text-card p {
         font-size: 0.8rem;
         margin-right: 2rem;
     }
-
-    .min-cards {
-        width: 23rem ;
-    }
-
     .min-cards .cards-three h2 {
-        font-size: 0.9rem ;
+        font-size: 0.9rem;
     }
-
     .min-cards .cards-three-2 h2 {
-        font-size:  0.9rem ;
+        font-size: 0.9rem;
     }
-
 }
-@media(max-width: 769px){
+
+/* Para telas até 769px */
+@media(min-width: 768px) {
     .card-one {
-        width: 20rem  ;
+        width: 20rem !important;
         margin-left: 1rem;
     }
-
     .text-card {
         min-height: 50vh;
         width: 22rem;
         margin-left: 1.5rem;
     }
-
     .text-card h1 {
         font-size: 2.5rem;
         padding-top: 1rem;
     }
-
     .min-cards {
-       width: 17rem ;
-       margin-left: 1.3rem;
+        width: 17rem;
+        margin-left: 1.3rem;
     }
-
     .text-card p {
         font-size: 0.8rem;
         margin-right: 2rem;
     }
-
-    .min-cards {
-        width: 23rem ;
-    }
-
     .min-cards .cards-three h2 {
-        font-size: 0.9rem ;
+        font-size: 0.9rem;
     }
-
     .min-cards .cards-three-2 h2 {
-        font-size:  0.9rem ;
+        font-size: 0.9rem;
     }
-
 }
-@media(max-width: 426px){
-    .card-one {
-        width: 25rem ;
-        margin-left: 1rem;
-    }
 
+@media(min-width: 425px) and (max-width: 700px) {
+    .card-one {
+        width: 20rem !important;
+        margin-left: 3rem !important;
+    }
     .text-card {
         min-height: 50vh;
         width: 22rem;
         margin-left: 1.5rem;
     }
-
     .text-card h1 {
         font-size: 2.5rem;
         padding-top: 1rem;
     }
-
     .min-cards {
-       width: 17rem ;
-       margin-left: 1.3rem;
+        width: 17rem;
+        margin-left: 1.3rem;
     }
-
     .text-card p {
         font-size: 0.8rem;
         text-align: center;
         margin-right: 2rem;
     }
-
     .min-cards {
-        width: 23rem ;
+        width: 23rem;
     }
-
     .min-cards .cards-three h2 {
-        font-size: 0.9rem ;
+        font-size: 0.9rem;
     }
-
     .min-cards .cards-three-2 h2 {
-        font-size:  0.9rem ;
+        font-size: 0.9rem;
     }
-
 }
-@media(max-width: 376px){
-    .card-one {
-        width: 20rem ;
-        margin-left: 1.8rem;
-    }
 
+/* Para telas até 376px */
+@media(max-width: 376px) {
+    .card-one {
+        width: 20rem !important;
+        margin-left: 1.9rem !important;
+    }
     .text-card {
         min-height: 50vh;
         width: 19rem;
         margin-left: 1.5rem;
     }
-
     .text-card h1 {
         font-size: 2.5rem;
         padding-top: 1rem;
     }
-
     .min-cards {
-       width: 17rem ;
-       margin-left: 1.3rem;
+        width: 17rem;
+        margin-left: 1.3rem;
     }
-
     .text-card p {
         font-size: 0.8rem;
     }
-
     .min-cards {
-        width: 20rem ;
+        width: 20rem;
     }
-
     .min-cards .cards-three h2 {
-        font-size: 0.9rem ;
+        font-size: 0.9rem;
     }
-
     .min-cards .cards-three-2 h2 {
-        font-size:  0.9rem ;
+        font-size: 0.9rem;
     }
-
 }
 
-@media(max-width: 320px){
-    .card-one {
-        width: 19rem;
-        margin-left: 1.3rem;
-    }
 
+/* Para telas até 320px */
+@media(max-width: 320px) {
+    .card-one {
+        width: 19rem !important;
+        margin-left: 1.3rem !important;
+    }
     .text-card {
         min-height: 50vh;
         width: 19rem;
         margin-left: 0.6rem;
     }
-
     .text-card h1 {
         font-size: 2.5rem;
         padding-top: 1rem;
     }
-
     .min-cards {
-       width: 17rem;
-       margin-left: 0;
+        width: 17rem;
+        margin-left: 0;
     }
-
     .text-card p {
         font-size: 0.8rem;
     }
-
     .min-cards {
         width: 20rem;
     }
-
     .min-cards .cards-three h2 {
         font-size: 0.9rem;
     }
-
     .min-cards .cards-three-2 h2 {
-        font-size:  0.9rem;
+        font-size: 0.9rem;
     }
-
 }
+
 
 
 /*@media(max-width: 603px){
