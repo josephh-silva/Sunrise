@@ -189,14 +189,19 @@ section {
 }
 
 /* Para telas até 1025px */
-@media(max-width: 1025px) {
+/*@media(max-width: 1024px) {
+    section{
+        background-color: #582f0e;
+    }
     .card-one {
-        width: 25rem;
+        width: 30rem;
+        margin-left: 0 ;
+
+        margin-right: 0;
     }
     .text-card {
         min-height: 50vh;
         width: 22rem;
-        margin-left: 1.5rem;
     }
     .text-card h1 {
         font-size: 2.5rem;
@@ -216,10 +221,10 @@ section {
     .min-cards .cards-three-2 h2 {
         font-size: 0.9rem;
     }
-}
+}*/
 
 /* Para telas até 769px */
-@media(min-width: 768px) {
+@media(min-width: 768px) and (max-width: 1010px) {
     .card-one {
         width: 20rem !important;
         margin-left: 1rem;
@@ -234,7 +239,7 @@ section {
         padding-top: 1rem;
     }
     .min-cards {
-        width: 17rem;
+        width: 23rem;
         margin-left: 1.3rem;
     }
     .text-card p {
